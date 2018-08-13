@@ -1,0 +1,167 @@
+.mt-progress-progress{
+    background-color: #00AE66;
+    height: 17px !important;
+    border-radius: 15px;
+}
+.mt-progress-runway{
+    background: #D8D8D8;
+    height: 17px !important;
+    border-radius: 15px;
+}
+.progress .mt-progress-content{
+    /*width:565px !important;*/
+}
+
+#conInp .mint-cell-text{
+    vertical-align: top;
+}
+
+#conInp .mint-cell-wrapper{
+    background-repeat: inherit;
+    background-image: initial;
+    align-items: baseline;
+	// padding: 0 40px;
+}
+.InformationAskList .mint-cell-wrapper{
+      align-items: baseline;
+}
+#titleInp .mint-cell-wrapper{
+	background: none!important;
+	padding: 11px 15px!important;
+}
+#orderType .mint-cell-wrapper, #orderType  .mint-cell:last-child{
+	background-image: none!important;
+}
+//发布通知输入框样式
+.mint-field-core::placeholder{
+    color:#999999;
+    font-family: PingFangSC-Regular;
+}
+.mint-cell-text{
+    font-weight:bold;
+}
+.mint-cell-wrapper{
+    padding:0 15px !important;
+}
+
+
+
+/* .contlogin .mint-cell{
+//  border-bottom: 1px solid #999999;
+} */
+.mint-field .mint-cell-title{
+    width: 60px;
+}
+ .mint-field-core{
+    text-indent: 20px;
+}
+ #conInp .mint-field-core{
+     text-indent: 0;
+ }
+ #titleInp .mint-field-core{
+     text-indent: 0;
+ }
+/* .InformationAskList #order .picker-slot.picker-slot-center{
+    text-align: right;
+}  */
+.contlogin .mintui{
+    font-size: 34px;
+}
+
+/*#homePop .mint-popup{
+    border-radius: 5px !important;
+    width:90% !important;
+}*/
+/* .InformationAskList .mintui{
+    font-size: 34px!important;
+} */
+/*.phone{
+    background: url(../static/img/phone.png) no-repeat 30px center;
+    background-size: 24.4px 41.3px;
+}*/
+/*.passwords{
+    background: url(../static/img/phone.png) no-repeat 30px center;
+    background-size: 24.4px 41.3px;
+}*/
+/* 输入框栏 */
+.OrderTitle .mint-cell-wrapper {
+	box-sizing: border-box;
+	padding-top: 11px;
+}
+
+
+//.mint-cell-wrapper {
+//    align-items:baseline;
+//    -webkit-align-items:baseline;
+//    box-align:baseline;
+//    -moz-box-align:baseline;
+//    -webkit-box-align:baseline;
+//}
+
+
+.mintui{
+    font-size:40px;
+}
+
+#famiLiPic .picker-item.picker-selected{
+	font-size: 28px!important;
+}
+#famiLiPic  .picker-slot-wrapper{
+	font-size: 24px!important;
+}
+.picker-center-highlight:before, .picker-center-highlight:after{
+	height: 4px!important;
+}
+/* 3个picker的改造版本 */
+#famiLiPop3Picker .picker-item.picker-selected{
+	font-size: 36px!important;
+}
+#famiLiPop3Picker  .picker-slot-wrapper{
+	font-size: 32px!important;
+}
+#famiLiPop3Picker .slot1, #famiLiPop3Picker .slot2, #famiLiPop3Picker .slot3{
+	padding-left: 30px;
+}
+#famiLiPop3Picker{
+	height: 540px;
+}
+/* promp */
+.mint-msgbox{
+	border-radius: 5px;
+}
+.mint-msgbox-message{
+	color: #666!important;
+	line-height: 22px!important;
+	text-align: left!important;
+}
+
+.mint-msgbox-confirm{
+	color: #00ae66!important;
+}
+.mint-msgbox-cancel{
+	color: #999!important;
+}
+/* 工单、扶贫领域 */
+#orderSub .mint-cell-wrapper{
+	background: none;
+}
+#orderSub .mint-cell:last-child
+{
+	background: none;
+}
+#orderSub .mint-tab-item-label{
+	font-size: 16px;
+}
+#orderSub .mint-navbar .mint-tab-item{
+	width: calc( (100% - 60px)/3 );
+	box-sizing: border-box;
+	padding-left: 2px;
+	text-align: left;
+	&:nth-child(1){
+		margin-left: 30px;
+	}
+}
+#orderSub .mint-radio-input:checked + .mint-radio-core{
+	background-color: #00ae66;
+    border-color: #00ae66;
+}

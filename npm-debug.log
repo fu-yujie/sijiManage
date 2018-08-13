@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\myNPM\\node.exe',
+1 verbose cli   'D:\\myNPM\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.3
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle pro@1.0.0~predev: pro@1.0.0
+6 silly lifecycle pro@1.0.0~predev: no script for predev, continuing
+7 info lifecycle pro@1.0.0~dev: pro@1.0.0
+8 verbose lifecycle pro@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle pro@1.0.0~dev: PATH: D:\myNPM\node_modules\npm\bin\node-gyp-bin;D:\git_work\fupinWx\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\myNPM\;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\junsheng\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\junsheng\AppData\Roaming\npm
+10 verbose lifecycle pro@1.0.0~dev: CWD: D:\git_work\fupinWx
+11 silly lifecycle pro@1.0.0~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --inline --progress --config build/webpack.dev.conf.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1033:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (D:\myNPM\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (D:\myNPM\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd D:\git_work\fupinWx
+14 error Windows_NT 10.0.16299
+15 error argv "D:\\myNPM\\node.exe" "D:\\myNPM\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v7.7.3
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

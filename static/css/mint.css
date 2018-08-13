@@ -1,0 +1,86 @@
+.mint-popup{
+    z-index: 900 !important;
+}
+.v-modal{
+    z-index: 800 !important;
+}
+#orderSub .mint-navbar .mint-tab-item.is-selected{
+	border-bottom: 3px solid #00AE66;
+	color: #00AE66;
+}
+
+#orderSub .picker{
+	display:inline-block;
+	width:100%;
+}
+#orderSub .mint-cell-wrapper{
+	border:1px solid transparent !important;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.paperworkInfo .mint-popup{
+	width:75%;
+	border-radius: 4px;
+	font-size: 0;
+}
+
+/*#orderSub .mint-cell-title{
+	border:1px solid transparent !important;
+}
+#orderSub .mint-cell{
+	border:1px solid transparent !important;
+}*/
+
+/*工单备份单选样式*/
+.beifen .mint-radiolist{
+	height:400px!important;
+	overflow: scroll;
+}
+.beifen .mint-tab-item{
+	flex:none !important;
+	width:33%
+}
+.mint-radio-input:checked + .mint-radio-core{
+	background:url('../img/1.jpg')
+}
+.picker-slot-wrapper{
+    font-size:16px !important;
+}
+.picker-item.picker-selected{
+    color:#0BB16D !important;
+    font-size:18px !important;
+}
+.addMessage .picker{
+    display:inline-block;
+    width:100% !important;
+}
+
+.addContact .mint-checkbox-core{
+	float:right;
+}
+.addContact .mint-checkbox-input:checked + .mint-checkbox-core{
+	background-color: #00AE66 ;
+	border-color: #00AE66 ;
+}
+.search .mint-cell-title{
+	flex:0
+}
+.search .mint-cell{
+	margin-left:15px;
+	border-bottom :1px solid  #E5E5E5
+}
+.search .mint-cell-wrapper{
+	padding-left:0 !important;
+}
+.search .mint-cell-value{
+	width:100%;
+}
+.addContact .mint-cell-value{
+	color:#666;
+}
+/*.addContact .mint-popup{
+	z-index:2000 !important;
+}*/
+
